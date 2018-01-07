@@ -1,0 +1,16 @@
+C:\Users\ThinkPad\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/linux-4.11.4/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/f/AlphaYuki/leela-zero
+CMake Warning at /cygdrive/c/Users/ThinkPad/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /cygdrive/c/Users/ThinkPad/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /cygdrive/c/Users/ThinkPad/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:24 (FIND_PACKAGE)
+
+
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   program_options
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug

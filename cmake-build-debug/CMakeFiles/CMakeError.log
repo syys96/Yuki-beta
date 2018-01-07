@@ -1,0 +1,186 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_92b8f/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_92b8f.dir/build.make CMakeFiles/cmTC_92b8f.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_92b8f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_92b8f.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_92b8f.dir/build.make:66£ºCMakeFiles/cmTC_92b8f.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_92b8f/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_7c380/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_7c380.dir/build.make CMakeFiles/cmTC_7c380.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_7c380.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c380.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_7c380.dir/build.make:66£ºCMakeFiles/cmTC_7c380.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_7c380/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_810bd/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_810bd.dir/build.make CMakeFiles/cmTC_810bd.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_810bd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_810bd.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_810bd.dir/build.make:66£ºCMakeFiles/cmTC_810bd.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_810bd/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_43497/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_43497.dir/build.make CMakeFiles/cmTC_43497.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_43497.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_43497.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_43497.dir/build.make:66£ºCMakeFiles/cmTC_43497.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_43497/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_6709d/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_6709d.dir/build.make CMakeFiles/cmTC_6709d.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_6709d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6709d.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_6709d.dir/build.make:66£ºCMakeFiles/cmTC_6709d.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_6709d/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/linux-4.11.4/bin/make.exe" "cmTC_9290d/fast"
+D:/linux-4.11.4/bin/make -f CMakeFiles/cmTC_9290d.dir/build.make CMakeFiles/cmTC_9290d.dir/build
+make[1]: ½øÈëÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+Building C object CMakeFiles/cmTC_9290d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9290d.dir/CheckSymbolExists.c.o   -c /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: ÖÂÃü´íÎó£ºOpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h£ºNo such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+                                               ^
+±àÒëÖÐ¶Ï¡£
+make[1]: *** [CMakeFiles/cmTC_9290d.dir/build.make:66£ºCMakeFiles/cmTC_9290d.dir/CheckSymbolExists.c.o] ´íÎó 1
+make[1]: Àë¿ªÄ¿Â¼¡°/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp¡±
+make: *** [Makefile:126£ºcmTC_9290d/fast] ´íÎó 2
+
+File /cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

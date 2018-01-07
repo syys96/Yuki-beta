@@ -1,0 +1,7 @@
+leelaz
+*.o
+*.d
+.vscode/settings.json
+training/tf/venv
+*.orig
+training/tf/venv

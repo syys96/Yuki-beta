@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leelaz"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leelaz">
+				<Option output="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/leelaz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/f/AlphaYuki/leela-zero/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 leelaz"/>
+					<CompileFile command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leelaz/fast">
+				<Option output="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/leelaz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/f/AlphaYuki/leela-zero/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 leelaz/fast"/>
+					<CompileFile command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/linux-4.11.4/bin/make.exe -j4 -f &quot;/cygdrive/f/AlphaYuki/leela-zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/autogtp/game_config.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FastBoard.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FastBoard.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FastState.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FastState.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FullBoard.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/FullBoard.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/GTP.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/GTP.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/GameState.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/GameState.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/KoState.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/KoState.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Leela.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Network.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Network.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/OpenCL.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/OpenCL.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Random.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Random.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SGFParser.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SGFParser.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SGFTree.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SGFTree.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SMP.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/SMP.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/TTable.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/TTable.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/TimeControl.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/TimeControl.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Timing.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Timing.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Training.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Training.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/UCTNode.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/UCTNode.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/UCTSearch.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/UCTSearch.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Utils.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Utils.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Zobrist.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/Zobrist.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/board.cpp">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/src/board.h">
+			<Option target="leelaz"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/cmake/Modules/FindOpenCL.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/cmake/Modules/CMakePushCheckState.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/cmake/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/AlphaYuki/leela-zero/cmake/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
